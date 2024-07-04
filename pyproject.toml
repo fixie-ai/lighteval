@@ -28,6 +28,9 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[tool.setuptools.package-data]
+src = ["src/lighteval/**/*.jsonl"]
+
 [project]
 name = "lighteval"
 version = "0.4.0.dev0"
